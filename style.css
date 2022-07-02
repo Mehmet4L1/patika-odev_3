@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(240, 204, 160);
+}
+.header .h1{
+    color: brown;
+    font-style: italic;
+}
+.header .tarif{
+    font-weight: bold;
+    font-style: italic;
+}
+.header span{
+    font-weight: bold;
+}
+.content {
+    float: right;
+    margin-right: 10%;
+}
+.content .info{
+    text-decoration: underline;
+    
+}
+.content .info span{
+    color: brown;
+    font-weight: bold;
+    
+}
+.content .info > span .son{
+    color: black;
+    font-weight:300;
+    padding-right: 1rem;
+}
+.content .liste{
+    margin-top: 2rem;
+}
+.content .bg{
+    color: white;
+    border:1px solid brown;
+    background-color: brown;
+    border-radius: 3rem;
+}
+.content .afiyet{
+    float: right;
+    margin-right: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: unset;
+}
